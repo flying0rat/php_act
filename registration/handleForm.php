@@ -3,7 +3,7 @@
 session_start();
 
 if(isset($_POST['loginBtn'])) {
-	if(isset($_SESSION['firstName']) && isset($_SESSION['password'])) {
+	if(isset($_SESSION['alreadyLogged'])) {
 		$_SESSION['alreadyLogged'] = 1;
 		header('Location: index.php');
 	} else {
