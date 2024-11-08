@@ -1,0 +1,89 @@
+body {
+    font-family: "arial";
+}
+
+table, th, td {
+    border: 1px solid black;
+	width: 100%;
+	table-layout: fixed;
+}
+
+form {
+	display: table;
+}
+
+.deleteContainer {
+	border-style: solid; 
+	height: 100%;
+	width: 100%;
+	display: table;
+}
+
+.deleteDetails {
+	display: table-row;
+}
+
+h2 {
+	display: table-cell;
+	white-space: nowrap;
+}
+
+.container {
+	width: 100%;
+}
+
+p {
+	display: table-row;
+}
+
+label {
+	display: table-cell;
+	white-space: nowrap;
+	padding: 1ex;
+}
+
+input {
+	display: table-cell;
+	padding: 1ex;
+	margin: 1ex;
+	font-size: 2ex;
+}
+
+.main {
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+}
+
+.main .row.header{
+	flex: 0 1 auto;
+}
+
+.main .row.content {
+	flex: 1 1 auto;
+}
+
+.main .row.footer {
+	flex: 0 1 40px;
+}
+
+.login {
+	border: 1px black;
+	outline-style: solid;
+	outline-color: powder blue;
+	padding: 15px;
+	background-color: #e6ecf5;
+	margin: 40px;
+	width: auto;
+	display: table;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.displayFlex {
+	display: flex;
+	justify-content: center;
+}
