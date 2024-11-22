@@ -1,0 +1,51 @@
+body {
+    font-family: "arial";
+    font-size: 2ex;
+    margin: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.border {
+	border-style: solid;
+	padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.table {
+    display: table;
+}
+
+.tableRow {
+    display: table-row;
+}
+
+.tableCell {
+    display: table-cell;
+    padding: 1ex;
+}
+
+.success {
+    color: green;
+    text-align: center;
+    background-color: ghostwhite;
+    border-style: solid;
+}
+
+.inputSize {
+    width: 30%;
+}
